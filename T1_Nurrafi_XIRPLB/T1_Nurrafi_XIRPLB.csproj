@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{74161D60-C42C-4F75-968B-E899E13D796B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>T1_Nurrafi_XIRPLB</RootNamespace>
+    <AssemblyName>T1_Nurrafi_XIRPLB</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FNurrafi2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FNurrafi2.Designer.cs">
+      <DependentUpon>FNurrafi2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FNurrafi1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FNurrafi1.Designer.cs">
+      <DependentUpon>FNurrafi1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FNurrafiHal1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FNurrafiHal1.Designer.cs">
+      <DependentUpon>FNurrafiHal1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FNurrafiHal10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FNurrafiHal10.Designer.cs">
+      <DependentUpon>FNurrafiHal10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FNurrafiHal2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FNurrafiHal2.Designer.cs">
+      <DependentUpon>FNurrafiHal2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FNurrafiHal3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FNurrafiHal3.Designer.cs">
+      <DependentUpon>FNurrafiHal3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FNurrafiHal4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FNurrafiHal4.Designer.cs">
+      <DependentUpon>FNurrafiHal4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FNurrafiHal5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FNurrafiHal5.Designer.cs">
+      <DependentUpon>FNurrafiHal5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FNurrafiHal6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FNurrafiHal6.Designer.cs">
+      <DependentUpon>FNurrafiHal6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FNurrafiHal7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FNurrafiHal7.Designer.cs">
+      <DependentUpon>FNurrafiHal7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FNurrafiHal8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FNurrafiHal8.Designer.cs">
+      <DependentUpon>FNurrafiHal8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FNurrafiHal9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FNurrafiHal9.Designer.cs">
+      <DependentUpon>FNurrafiHal9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KFNurrafi.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FNurrafi1.resx">
+      <DependentUpon>FNurrafi1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FNurrafi2.resx">
+      <DependentUpon>FNurrafi2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FNurrafiHal1.resx">
+      <DependentUpon>FNurrafiHal1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FNurrafiHal10.resx">
+      <DependentUpon>FNurrafiHal10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FNurrafiHal2.resx">
+      <DependentUpon>FNurrafiHal2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FNurrafiHal3.resx">
+      <DependentUpon>FNurrafiHal3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FNurrafiHal4.resx">
+      <DependentUpon>FNurrafiHal4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FNurrafiHal5.resx">
+      <DependentUpon>FNurrafiHal5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FNurrafiHal6.resx">
+      <DependentUpon>FNurrafiHal6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FNurrafiHal7.resx">
+      <DependentUpon>FNurrafiHal7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FNurrafiHal8.resx">
+      <DependentUpon>FNurrafiHal8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FNurrafiHal9.resx">
+      <DependentUpon>FNurrafiHal9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
